@@ -1,0 +1,105 @@
+.container {
+  margin-top: 25px;
+  width: 40vw;
+  height: 54vh;
+}
+
+.description {
+  width: 40vw;
+  height: 50%;
+}
+
+.description .bg-image {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  background-image: url("/res/webDescription-background-cut.png");
+  background-position: center;
+  opacity: 0.65;
+  z-index: -1;
+}
+.content{
+  width: 40vw;
+  margin: 0 10vw;
+}
+
+.content h1 {
+  color: white;
+  margin:20px 0 0 20px;
+  text-shadow: 1px 2px #000;
+}
+
+.content p {
+  color: white;
+  margin:20px 0 0 20px;
+  text-shadow: 1px 1px #000;
+  max-width: 450px;
+  font-size: 1.5rem;
+  font-weight:900;
+}
+
+.description-under-header h1{
+  width: 95vw;
+  margin-top:15vh;
+  text-align: center;
+  font-size: 19px;
+}
+
+.speration-line{
+  margin: 0 auto;
+  height: 1vh;
+  width: 95vw;
+  background-color: #c4c4c4;
+}
+
+.joinForFree{
+  background-color: white;
+  padding:3vh 4vw;
+  width: 20rem;
+  color: #1D74D5;
+  font-size: 30px;
+  font-weight: 1000;
+  cursor: pointer;
+  border-radius: 5px;
+  border:4px solid rgb(41, 99, 224);
+  margin-left: 50vw;
+  
+}
+@media screen and (max-width: 650px) {
+  .joinForFree{
+    display:none;
+  }
+}
+@media screen and (max-height: 400px) {
+  .joinForFree{
+    display:none;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .content p {
+    font-size: 1rem;
+    font-weight:900;
+  }
+}
+
+@media screen and (max-width: 1112px) {
+  .joinForFree {
+    margin-top: -5vh;
+  }
+}
+@media screen and (max-width: 1108px) {
+  .joinForFree {
+    margin-top: -14vh;
+  }
+}
+@media screen and (max-width: 752px) {
+  .joinForFree {
+    margin-top: -17vh;
+  }
+}
+@media screen and (max-width: 856px) {
+  .description-under-header {
+    margin-top: -10vh;
+  }
+}

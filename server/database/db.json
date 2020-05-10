@@ -1,0 +1,18 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Algebra I",
+      "description":"The entry course to learn algebra, learn about solving multi variable equations, Matrices, and a lot more!",
+      "url": "https://www.udemy.com/course/algebra-i-beginning-algebra/",
+      "image_240x135":"https://i.udemycdn.com/course/240x135/34267_f952_15.jpg"
+    },
+    {
+        "id": 2,
+        "title": "How To Make Money Online In 2020 Without Investment",
+        "description":"Easy ways to Generate a Steady Income from Trusted Websites online",
+        "url": "https://i.udemycdn.com/course/240x135/1687236_bab3.jpg",
+        "image_240x135":"https://i.udemycdn.com/course/240x135/34267_f952_15.jpg"
+      }
+    ]
+}

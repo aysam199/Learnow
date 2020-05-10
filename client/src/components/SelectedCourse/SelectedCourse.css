@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.greyBackGround{
+    position:relative;
+    width: 100%;
+    height: 23rem;
+    background-color: rgb(68, 61, 61);
+    color: white;
+}
+.courseTitle{
+    font-size: 3rem;
+    position:absolute; 
+    top: 3rem;
+    left: 5rem;
+}
+.courseDesc{
+    font-size: 2rem;
+    position:absolute; 
+    top: 8rem;
+    left: 5rem;
+}
+.coursePrice{
+    font-size: 0.9rem;
+    position:absolute; 
+    top: 15rem;
+    left: 5rem;
+}
+.courseURL{
+    font-size: 0.9rem;
+    position:absolute; 
+    top: 15rem;
+    left: 25rem;
+}
+.courseImage{
+    position:absolute; 
+    bottom:-60px;
+    right: 0;
+    margin: 2rem;
+    border:4px solid white;
+    border-radius: 5px;
+}
+.backIcon{
+    position:absolute; 
+    width: 60px;
+    height: 60px;
+    left: 1rem;
+}
+

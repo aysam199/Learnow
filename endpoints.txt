@@ -1,0 +1,18 @@
+POST /record-search
+
+
+POST /join-group
+POST /remove-group
+
+POST /chat
+
+
+ ///////////************* Authentinaction  */////////////////////////////
+POST /signup
+POST /login
+GET /logout
+
+
+
+/***** 3rd party  */////
+

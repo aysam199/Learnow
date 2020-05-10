@@ -1,0 +1,19 @@
+.req-login-container{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 3rem;
+}
+.req-login-btn{
+  margin-top: 0.4rem;
+  padding: 0.4rem;
+  width: 10rem ;
+  cursor: pointer;
+}
+
+.req-login-btn:hover{
+  padding: 0.4rem;
+  width: 11rem ;
+  cursor: pointer;
+  background-color: #cecece;
+}

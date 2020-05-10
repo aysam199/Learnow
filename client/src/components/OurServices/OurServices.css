@@ -1,0 +1,23 @@
+.services h1{
+    text-align: center;
+    margin-top: 18vh;
+}
+.goalsOptions{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+  @media screen and (max-height: 450px) {
+    .services{
+        margin-top: 10rem;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .services{
+        margin-top: 11rem;
+    }
+  }
+
+
+  

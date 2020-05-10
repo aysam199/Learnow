@@ -1,0 +1,6 @@
+.course-page{
+  width: 100vw;
+  height: 33vh;
+  background-color: rgb(68, 61, 61);
+  z-index: 1;
+}
